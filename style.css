@@ -1,0 +1,31 @@
+.jumbotron {
+
+    padding-top: 6rem;
+    background-color: #e2edff;
+
+}
+
+#projects {
+
+    padding-top: 2rem;
+    background-color: #e2edff;
+
+}
+
+section {
+    padding-top: 6rem;
+}
+
+.short-text {
+    display: none;
+}
+
+@media (max-width: 560px) {
+    .short-text {
+        display: inline-block;
+    }
+
+    .full-text {
+        display: none;
+    }
+}
